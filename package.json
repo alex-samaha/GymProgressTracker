@@ -1,0 +1,28 @@
+{
+  "name": "gymprogresstracker",
+  "version": "1.0.0",
+  "description": "app to track gym progress",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-samaha/GymProgressTracker.git"
+  },
+  "author": "ags12432",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-samaha/GymProgressTracker/issues"
+  },
+  "homepage": "https://github.com/alex-samaha/GymProgressTracker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
