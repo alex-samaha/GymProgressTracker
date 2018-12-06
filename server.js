@@ -6,6 +6,7 @@ const passport = require('passport');
 
 // import routes
 const users = require('./routes/api/users');
+const workouts = require('./routes/api/workouts');
 
 const app = express();
 
@@ -30,6 +31,7 @@ require('./config/passport')(passport);
 
 // Routes
 app.use('/api/users', users);
+app.use('/api/workouts', workouts);
 
 // Set the port
 const port = process.env.PORT || 5000;
